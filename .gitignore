@@ -1,22 +1,16 @@
-# dependencies
 node_modules/
-web/node_modules/
+archive/constellation/web/node_modules/
+archive/constellation/web/dist/
+archive/constellation/data/
 
-# Swift build
-Muze/.build/
-Muze/build/
-Muze/Resources/Muze.iconset/
+macos/.build/
+macos/build/
+macos/Resources/Clem.iconset/
 *.xcodeproj
 
-# Supermemory local engine data (encrypted store, model cache)
 .supermemory/
-
-# Captured data (screenshots, OCR sidecars, edge cache) — local & private
 data/
 
-# macOS
 .DS_Store
-
-# logs / temp
 *.log
 scratchpad/

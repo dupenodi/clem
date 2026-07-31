@@ -4,21 +4,19 @@
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:supermemory-masala}/Muze",
-            "name": "Debug Muze (Muze)",
-            "target": "Muze",
-            "configuration": "debug",
-            "preLaunchTask": "swift: Build Debug Muze (Muze)"
+            "cwd": "${workspaceFolder}/macos",
+            "name": "Debug Clem",
+            "target": "Clem",
+            "configuration": "debug"
         },
         {
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:supermemory-masala}/Muze",
-            "name": "Release Muze (Muze)",
-            "target": "Muze",
-            "configuration": "release",
-            "preLaunchTask": "swift: Build Release Muze (Muze)"
+            "cwd": "${workspaceFolder}/macos",
+            "name": "Release Clem",
+            "target": "Clem",
+            "configuration": "release"
         }
     ]
 }
